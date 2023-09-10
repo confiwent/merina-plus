@@ -1,0 +1,30 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore all pyc files
+*.pyc
+
+*.csv
+
+# Ignore all model files
+# *.model
+
+models/*
+
+saved_models/*
+
+# Ignore results files
+Results/*
+
+Results2022/*
+
+envs/traces/*
+
+valid_ac/results/*
+valid_ac/results1/*
+valid_ac/video_size/*
+valid_ac/runtime/*
+valid_ac/oraori/*
+
+# Ignore configuration files
+*.vscode
