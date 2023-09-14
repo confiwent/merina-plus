@@ -1,1 +1,50 @@
-{"bola": ["test_bola", "BOLA"], "mpc": ["test_mpc", "RobustMPC"], "pensieve": ["test_a2c", "Pensieve"], "comyco": ["test_cmc", "Comyco"], "fugo": ["test_fugu", "Fugu"], "bayes": ["test_bayes", "BayesMPC"], "iml": ["test_mil", "MERINA+(IL)"], "nacrl": ["test_nacrl", "MERINA+(NA)"], "imrl": ["test_imrl", "MERINA+"], "maml": ["test_maml", "A2BR"], "adp": ["test_adp", "MERINA+(adp)"], "mmrl": ["test_mmrl", "MERINA"], "nmirl": ["test_nmirl", "MERINA+(NMI)"]}
+{
+    "bola": [
+        "test_bola",
+        "BOLA"
+    ],
+    "mpc": [
+        "test_mpc",
+        "RobustMPC"
+    ],
+    "pensieve": [
+        "test_a2c",
+        "Pensieve"
+    ],
+    "comyco": [
+        "test_cmc",
+        "Comyco"
+    ],
+    "fugo": [
+        "test_fugu",
+        "Fugu"
+    ],
+    "iml": [
+        "test_mil",
+        "MERINA+(IL)"
+    ],
+    "nacrl": [
+        "test_nacrl",
+        "MERINA+(NA)"
+    ],
+    "imrl": [
+        "test_imrl",
+        "MERINA+"
+    ],
+    "maml": [
+        "test_maml",
+        "A2BR"
+    ],
+    "adp": [
+        "test_adp",
+        "MERINA+(adp)"
+    ],
+    "mmrl": [
+        "test_mmrl",
+        "MERINA"
+    ],
+    "nmirl": [
+        "test_nmirl",
+        "MERINA+(NMI)"
+    ]
+}
