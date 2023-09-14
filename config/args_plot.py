@@ -6,6 +6,13 @@ def get_args(rest_args):
     # load data
     parser.add_argument('--res-folder', default='test', help='the name of result folder')
     parser.add_argument('--tr-folder', default='puffer', help='the name of traces folder')
+    parser.add_argument('--tf', action='store_true', help='Use FCC traces')
+    parser.add_argument('--tfh', action='store_true', help='Use FCCand3GP traces')
+    parser.add_argument('--t3g', action='store_true', help='Use 3GP traces')
+    parser.add_argument('--to', action='store_true', help='Use Oboe traces')
+    parser.add_argument('--tp', action='store_true', help='Use Puffer traces')
+    parser.add_argument('--tp2', action='store_true', help='Use Puffer2 traces')
+    parser.add_argument('--tp3', action='store_true', help='Use Puffer3 traces')
 
     # load baselines
     parser.add_argument('--iml', action='store_true', help='Show the results of IMRL without MI')
